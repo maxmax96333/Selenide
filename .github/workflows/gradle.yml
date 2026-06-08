@@ -23,6 +23,7 @@ jobs:
 
       - name: Set environment variable for Selenide headless mode
         # Передача системного свойства для headless режима браузера
+        run: echo "SHELL: setting environment variable" # (опционально, для информации)
         env:
           SELENIDE_HEADLESS: true
 
